@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happy happy happy :D</title>
+</head>
+<style>
+    h1, p {
+        width: 700px;
+    }
+
+    p {
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    h1 {
+        font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    }
+</style>
+<body onload="pL()">
+
+
+    <h1 id="t" onclick="pbNj( )" onmouseover="hT()" onmouseout="rT()">it's friday! ep1: I crave fries (click me dude)</h1></button>
+    <article>
+        <img id="image" src="Screenshot 2025-07-26 195119.png" onclick="imgc()" width="500" height="150">
+
+        <p id="p1" onmouseenter="hp(this)"> supercalifragilisticexpialidocius supercalifragilisticexpialidocius supercalifragilisticexpialidocius supercalifragilisticexpialidocius 
+            supercalifragilisticexpialidocius supercalifragilisticexpialidocius supercalifragilisticexpialidocius supercalifragilisticexpialidocius
+        </p>
+
+        <p id="p2"> supercalifragilisticexpialidocius supercalifragilisticexpialidocius supercalifragilisticexpialidocius supercalifragilisticexpialidocius 
+            supercalifragilisticexpialidocius supercalifragilisticexpialidocius supercalifragilisticexpialidocius supercalifragilisticexpialidocius
+        </p>
+
+        <p>i like cheesecake, no not literal cheese. oh wait. cream cheese is a cheese.</p>
+    </article>
+
+    <em animation="abi1()">DO NOT HOVER ON ME</em>
+
+
+    <script>
+        function pbNj() {
+            document.getElementById("t").style.backgroundColor = "papayawhip"
+            document.getElementById("p2").style.backgroundColor = "lightblue"
+        }
+
+        function hT() {
+        document.getElementById("t").style.color = "darkblue"
+        }
+
+        function rT() {
+        document.getElementById("t").style.color = "black"
+        }
+
+        function imgc() {
+            document.getElementById("image").src =
+            document.getElementById("image").src.includes("Screenshot 2025-07-26 154543.png")
+            ? "Screenshot 2025-07-26 195119.png"
+            : "Screenshot 2025-07-26 154543.png"
+
+        }
+
+        function abi1() {
+            document.getElementById("em").object.style.animation = "0.5s ease-out visibility 0s linear 0.5s";
+        }
+
+        function hp(p) {            
+            p.style.backgroundColor = "lightorange"
+        }
+    </script>
+
+</body>
+</html>
